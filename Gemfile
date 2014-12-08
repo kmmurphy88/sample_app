@@ -35,12 +35,18 @@ group :development, :test do
   gem 'spring'
 end
 
+
 group :test do
   gem 'minitest-reporters'
-  gem 'mini_backtrace'
-  gem 'guard-minitest'
+  # gem 'mini_backtrace'
 end
 
-group :production do
-  gem 'rails_12factor', '0.0.2'
-end
+# group :test do
+#   gem 'minitest-reporters'
+#   gem 'mini_backtrace'
+#   gem 'guard-minitest'
+# end
+
+# group :production do
+#   gem 'rails_12factor', '0.0.2'
+# end
